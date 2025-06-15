@@ -42,6 +42,8 @@ const newgame=()=>{
         box.innerText=" ";
         box.disabled=false;
     }
+    cont.classList.remove("hide");
+    rsb.classList.remove("hide"); 
     msgcont.classList.add("hide");
 }
 
