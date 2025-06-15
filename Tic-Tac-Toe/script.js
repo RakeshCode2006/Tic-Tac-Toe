@@ -37,6 +37,7 @@ const winner = () =>{
     }
 } 
 const newgame=()=>{
+    msgcont.classList.remove("nonhide");
     turn0=true;
      for(let box of boxes){
         box.innerText=" ";
@@ -44,7 +45,6 @@ const newgame=()=>{
     }
     cont.classList.remove("hide");
     rsb.classList.remove("hide"); 
-    msgcont.classList.add("hide");
 }
 
 boxes.forEach((box,idx)=>{
