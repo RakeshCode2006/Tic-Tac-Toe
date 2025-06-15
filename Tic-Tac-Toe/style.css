@@ -8,7 +8,7 @@ body {
     background-color: #136f63;
     display: flex;
     flex-direction: column;
-    align-items: center; /* center items horizontally */
+    align-items: center;
 }
 
 h1 {
@@ -21,8 +21,8 @@ h1 {
 
 .container {
 
-    height: 70vh;
-    width: 70vh;
+    height: 60vh;
+    width: 60vh;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -52,10 +52,40 @@ h1 {
 }
 
 .rsb{
+    margin: 1.5vh;
     font-size: 3vh;
     border-radius: 10%;
     height: 6vh;
     border: none;
     background-color: #032B43;
     color: white;
+}
+
+.ng {
+    display: block;
+    padding: 1vh;
+    font-size: 3vh;
+    border-radius: 10%;
+    height: 6vh;
+    margin-left:2vh ;
+    border: none;
+    background-color: #032B43;
+    color: white;
+
+}
+
+.hidden{
+    display: none;
+}
+.hide{
+    display: none;
+
+
+}
+
+.nonhide {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
 }
